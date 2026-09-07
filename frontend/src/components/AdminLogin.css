@@ -1,0 +1,31 @@
+.admin-login {
+    width: 400px;
+    max-width: 90%;
+    margin: 100px auto;
+    padding: 30px;
+    text-align: center;
+}
+
+.admin-login h2 {
+    margin-bottom: 25px;
+}
+
+.admin-login form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.admin-login input {
+    padding: 12px;
+    font-size: 16px;
+}
+
+.admin-login button {
+    padding: 12px;
+    cursor: pointer;
+}
+
+.admin-login .error {
+    margin-top: 15px;
+}

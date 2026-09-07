@@ -1,0 +1,46 @@
+.about{
+    padding: 60px 8%;
+    background: #111823;
+    color:white;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #38bdf8;
+    margin-bottom: 23px;
+}
+.about>p{
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.8;
+    color: #a3c4f8;
+}
+
+.about-info{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 40px;
+}
+.card{
+    padding: 25px;
+    background: #0314ff;
+    border-radius: 11px;
+    text-align: center;
+    transition: 0.7s;
+}
+.card:hover{
+    transform: translateY(-6px);
+    border:1px solid #38bdf8;
+}
+.card h3{
+    color:#38bdf8;
+    margin-bottom: 10px;
+}
+@media(max-width: 768px){
+    .about-info{
+        grid-template-columns:repeat(1, 1fr);
+    }
+}
